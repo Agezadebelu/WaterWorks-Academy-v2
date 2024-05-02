@@ -225,7 +225,44 @@
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">Browse by Category</h2>
       <!-- Placeholder for categories or filters -->
-      <ul id="category-list" class="flex space-x-4"></ul>
+      <ul id="category-list" class="flex space-x-4">
+        <a href="{{url_for('category', category_id=category_id)}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-code mr-2"></i>
+          <span>Surface Water Hydrology</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-chart-simple mr-2"></i>
+          <span>Surface Water Hydraulics</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-chart-simple mr-2"></i>
+          <span>Irrigation</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-pen mr-2"></i>
+          <span>Design of Hydraulic Structures</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-chart-line mr-2"></i>
+          <span>Water Quality Management</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-music mr-2"></i>
+          <span>Water Treatment</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-camera mr-2"></i>
+          <span>Groundwater</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-cog mr-2"></i>
+          <span>Modelling General Knowledges</span>
+        </a>
+        <a href="{{url_for('category')}}" class="m-2 p-2 bg-white rounded-lg shadow-md flex items-center">
+          <i class="fas fa-vial mr-2"></i>
+          <span>Environmental Engineering</span>
+        </a>
+      </ul>
     </div>
   </section>
 
